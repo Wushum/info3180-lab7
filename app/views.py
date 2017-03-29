@@ -20,6 +20,9 @@ def home():
     """Render website's home page."""
     return render_template('home.html')
 
+@app.route('/api/thumbnails')
+def thumbnail():
+    
 
 ###
 # The functions below should be applicable to all Flask apps.
