@@ -5,7 +5,7 @@ import urlparse
 
 
 def getImg():
-    url = "https://www.walmart.com/ip/54649026"
+    url = "https://www.amazon.com/b/ref=lp_706809011_ln_3_2?node=3418261&ie=UTF8&qid=1490821540"
     result = requests.get(url)
     soup = BeautifulSoup(result.text, "html.parser")
     
