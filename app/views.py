@@ -30,7 +30,9 @@ def thumbnail():
     
     return response
     
-
+@app.route('/thumbnails/view')
+def thumbnaileview():
+    return render_template('thumbnails.html')
 ###
 # The functions below should be applicable to all Flask apps.
 ###
